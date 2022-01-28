@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+     display: grid;
+    place-items: center; 
+  
+    height: 100vh;
+    width: 100%;
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 3rem;
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    text-align: center;
+    /* width: 2rem; */
+    font-size: 3rem;
+    margin: 1rem 0;
+    /* text-shadow: 1rem 1rem 2rem ; */
+}
+.container{
+    /* display: grid; */
+  
+    /* background-color: ; */
+    background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* height: 250em; */
+    width: 32rem;
+    height: 20rem;
+    font-size: 4rem;
+    box-shadow: 1rem 1rem 1rem #2C5364;
+ 
+ 
+}
+button{
+        margin: 0rem 1rem;
+        padding: 1rem 1rem;
+        background-color:0 ;
+        font-size: 2rem;
+        background: #1f4037;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+outline: none;
+border-radius: 1rem;
+}
+span{
+    color: #FFE000;
+    color: black;
+    margin: 1rem 3rem;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 6rem;
+
+    /* background-color: brown; */
+}
+button{
+    margin-top: 0;
+    /* width: 2rem; */
+}
+.middle{
+    margin: 2rem 0;
+}
